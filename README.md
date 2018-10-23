@@ -77,6 +77,8 @@ Congratulations you made your first repo!!
 ---
 ## Workflow & Commands
 
+This section is what the basic commands you will be using from now on (Just a recap of what each command does.)
+
 
 
 ---
