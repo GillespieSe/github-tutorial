@@ -94,3 +94,23 @@ git status: Tells you which files are added to the staging area or not
 ---
 ## Rolling Back Changes
 
+This section will cover how to backtrack in the things you just learned with simple basic commands.
+
+To undo files that aren't commited use:
+
+git reset HEAD <filename>
+
+To undo files that are commited use:
+
+git reset --soft HEAD~1
+
+To undo add's use:
+
+git reset <filename>
+
+To unitiliaze init's use:
+
+rm -rf .git
+
+"git add --all" will Include all changes, including deleted files.Will add any deleted or renamed files
+
