@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <GillespieSeshimey>
+_by GillespieSeshimey_
 
 ---
 ## Git vs. GitHub
