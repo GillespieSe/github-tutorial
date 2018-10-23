@@ -5,7 +5,7 @@ _by <GillespieSeshimey>_
 ---
 ## Git vs. GitHub
 Git is a workspace for code where you can edit your code to any time interval you want. Mainly used for code projects that invole multiple people to produce or just to show different projects that other people might want to use and try for themselves.
-Github is a just a programming institution for code with multiple syntaxes of code such as Javascript,Java,Lua,Python,etc...
+Github is a just a programming institution for code with multiple syntaxes of coding languages such as Javascript,Java,Lua,Python,etc...
 
 
 ---
@@ -60,6 +60,20 @@ This will add README.md to the staging area to view it (Look at important notes 
 
 Step 9: Type in "git commit -m "created README.md"
 This command is like a notepad of what you did so you aren't confused on what changes or things you made.
+
+Step 10: Go into github and click the plus icon and select new respitories. Input the data that they give to you.
+The respitory name should be the same as what your directory is called.
+
+Step 11: Press the SSH button and copy the link given to you.
+
+Step 12:
+Type in "git remote add origin git@github.com:<YourgithubUsername>/first-repo.git"
+Don't add the < > when your using this command.
+
+Step 13: Type in "git push -u origin master"
+This is like a link between cloud9 and github, github will be where you can access your first repo.
+
+Congratulations you made your first repo!!
 ---
 ## Workflow & Commands
 
