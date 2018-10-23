@@ -1,11 +1,11 @@
 # GitHub Tutorial
 
-_by GillespieSeshimey_
+_by Gillespie Seshimey_
 
 ---
 ## Git vs. GitHub
 Git is a workspace for code where you can edit your code to any time interval you want. Mainly used for code projects that invole multiple people to produce or just to show different projects that other people might want to use and try for themselves.
-Github is a just a programming institution for code with multiple syntaxes of coding languages such as Javascript,Java,Lua,Python,etc...
+Github is just a programming institution for code with multiple coding languages such as Javascript,Java,Lua,Python,etc...
 
 
 ---
@@ -15,7 +15,7 @@ Github is a just a programming institution for code with multiple syntaxes of co
 
 **Phase 1:**
 
-To make a cloud9 account first you would have to sign up with your email and a password. After click on the gear icon and click "connected services" press the green connect button and it should say that your cloud9 and github are linked.
+To make a cloud9 account first you would have to sign up with your email and a password. After, click on the gear icon and click "connected services" press the green connect button and it should say that your cloud9 and github are linked.
 
 **Phase 2:**
 
@@ -28,14 +28,14 @@ To make a github account you would obviously need to Sign up by putting your ema
 End of Initial Setup
 ---
 ## Repository Setup
-## It's' time to make your first repo but first you probably to know what a repo is in short repo means "repository" this is where your future projects will be stored and saved for eternity compare this to a attic where you place your necessities to store.
+## It's time to make your first repo but first you probably need to know what a repo is, In short repo means "repository". This is where your future projects will be stored and saved for eternity... compare this to a attic where you place your necessities to store.
 
-# Important Notes - git status is a necessary part for this section this will allow you to see all the files that were made onto the staging area. If the file name is green then the file you edited was correctly added into the staging are if red read steps 8 - 9 to fix
+# Important Notes - git status is a necessary part for this section, this will allow you to see all the files that were made onto the staging area. If the file name is green then the file you edited was correctly added into the staging area, if red then read steps 8 - 9 to fix
 
 # Let's Start!
 
 **Step 1:** Type "cd ~/workspace" in your command interface 
-- /workspace is like your hardware a place where all units are connected to use this to direct to any other directory you want
+- /workspace is like your hardware, a place where all units are connected to use this to direct to any other directory you want
 
 **Step 2:** Type "`mkdir first-repo`" 
 - Your directory name doesn't have to be "first-repo" name it anything you like.
@@ -47,7 +47,7 @@ End of Initial Setup
 - Git init is a command that connects to cloud9, typing "git init" will establish a link between the directories you made from git to cloud9 (More explantion will be given further onto the steps.) Primarily you would be using this command a lot for future projects
 
 **Step 5:** Type "`touch README.md`""
-- "Touch" is a command that allows you to make files to directories. In light terms its like putting files in a folder.
+- "Touch" is a command that allows you to make files to directories. In light terms, its like putting files in a folder.
 
 **Step 6:** Open README.md and type in anything you want
 - (Theres no command for this just double click it on the left tab)
@@ -61,7 +61,7 @@ End of Initial Setup
 **Step 9:** Type in "`git commit -m "created README.md`"
 - This command is like a notepad of what you did so you aren't confused on what changes or things you made.
 
-**Step 10:** Go into github and click the plus icon and select new respitories. Input the data that they give to you.
+**Step 10:** Go into github and click the plus icon and select new respositories. Input the 2 lines of code that they give to you in the second tab.
 - The respitory name should be the same as what your directory is called.
 
 **Step 11:** Press the SSH button and copy the link given to you.
@@ -104,13 +104,13 @@ git reset HEAD <filename>
 
 git reset --soft HEAD~1
 
-## To undo add's use:
+## To undo adds use:
 
 git reset <filename>
 
-## To unitiliaze init's use:
+## To uninitialize git:
 
 rm -rf .git
 
-## "git add --all" will Include all changes, including deleted files.Will add any deleted or renamed files
+## "git add --all" will Include all changes, including deleted files and renamed files
 
