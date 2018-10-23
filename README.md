@@ -32,48 +32,48 @@ End of Initial Setup
 
 # Important Notes - git status is a necessary part for this section this will allow you to see all the files that were made onto the staging area. If the file name is green then the file you edited was correctly added into the staging are if red read steps 8 - 9 to fix
 
-Let's Start!
+# Let's Start!
 
 **Step 1:** Type "cd ~/workspace" in your command interface 
-/workspace is like your hardware a place where all units are connected to use this to direct to any other directory you want
+- /workspace is like your hardware a place where all units are connected to use this to direct to any other directory you want
 
-**Step 2:** Type "mkdir first-repo" 
-Your directory name doesn't have to be "first-repo" name it anything you like.
+**Step 2:** Type "`mkdir first-repo`" 
+- Your directory name doesn't have to be "first-repo" name it anything you like.
 
-**Step 3:** Type "cd first-repo"
-This will change your directory to the one you just made
+**Step 3:** Type "`cd first-repo`"
+- This will change your directory to the one you just made
 
-**Step 4:** Type "git init"
-Git init is a command that connects to cloud9, typing "git init" will establish a link between the directories you made from git to cloud9 (More explantion will be given further onto the steps.) Primarily you would be using this command a lot for future projects
+**Step 4:** Type "`git init`"
+- Git init is a command that connects to cloud9, typing "git init" will establish a link between the directories you made from git to cloud9 (More explantion will be given further onto the steps.) Primarily you would be using this command a lot for future projects
 
-**Step 5:** Type touch README.md
-"Touch" is a command that allows you to make files to directories. In light terms its like putting files in a folder.
+**Step 5:** Type "`touch README.md`""
+- "Touch" is a command that allows you to make files to directories. In light terms its like putting files in a folder.
 
 **Step 6:** Open README.md and type in anything you want
-(Theres no command for this just double click it on the left tab)
+- (Theres no command for this just double click it on the left tab)
 
 **Step 7:** Press "Ctrl+S" on your keyboard
-Pressing Ctrl+S on your keyboard will save the comments you made on your README.md file usually cloud9 just autosaves so you probably won't have to worry about this step
+- ressing Ctrl+S on your keyboard will save the comments you made on your README.md file usually cloud9 just autosaves so you probably won't have to worry about this step
 
-**Step 8:** Type in "git add README.md"
-This will add README.md to the staging area to view it (Look at important notes if extra guidance)
+**Step 8:** Type in "`git add README.md`"
+- This will add README.md to the staging area to view it (Look at important notes if extra guidance)
 
-**Step 9:** Type in "git commit -m "created README.md"
-This command is like a notepad of what you did so you aren't confused on what changes or things you made.
+**Step 9:** Type in "`git commit -m "created README.md`"
+- This command is like a notepad of what you did so you aren't confused on what changes or things you made.
 
 **Step 10:** Go into github and click the plus icon and select new respitories. Input the data that they give to you.
-The respitory name should be the same as what your directory is called.
+- The respitory name should be the same as what your directory is called.
 
 **Step 11:** Press the SSH button and copy the link given to you.
 
 **Step 12:**
-Type in "git remote add origin git@github.com:<YourgithubUsername>/first-repo.git"
-Don't add the < > when your using this command.
+Type in "`git remote add origin git@github.com:<YourgithubUsername>/first-repo.git`"
+- Don't add the < > when your using this command.
 
-**Step 13:** Type in "git push -u origin master"
-This is like a link between cloud9 and github, github will be where you can access your first repo.
+**Step 13:** Type in "`git push -u origin master`"
+- This is like a link between cloud9 and github, github will be where you can access your first repo.
 
-**Congratulations you made your first repo!!**
+# Congratulations you made your first repo!!**
 ---
 ## Workflow & Commands
 
