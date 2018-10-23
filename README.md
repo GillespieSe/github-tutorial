@@ -79,7 +79,18 @@ Congratulations you made your first repo!!
 
 This section is what the basic commands you will be using from now on (Just a recap of what each command does.)
 
+git init: Initializes git in the current directory
 
+git add file: Adds the file to the stage
+
+git commit -m "message": Makes a message on what you did
+
+git push: Pushes the commit to the repository
+
+git log: Shows a list of previous commits
+
+git status: Tells you which files are added to the staging area or not
 
 ---
 ## Rolling Back Changes
+
